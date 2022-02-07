@@ -2,6 +2,6 @@
 
 // 1. CONTROLLERS
 
-exports.getHome = () => {
+exports.getHome = (req,res) => {
   res.render("index");
 };
