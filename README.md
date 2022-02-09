@@ -18,10 +18,16 @@ PORT=
 
 # ESTABLECER LA BASE DE DATOS
 MONGODB_URI=
+
+# ESTABLECER LA PALABRA SECRETA PARA LAS COOKIES
+SECRET=
 ```
 
 Puedes revisar como ejemplo el archivo `.env.example` con las propiedades.
 
+## Consideraciones
+
+- Si el despliegue sucede en un CLoud Environment (a.k.a Heorku), vale la pena revisar tu sesion de `config vars`.
 
 ## Créditos
 
